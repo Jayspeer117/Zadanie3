@@ -7,7 +7,7 @@ d=(1 1 -1 -1 3 0)
 e=(1 0 0 0 1 0)
 f=(1 1 0 1 1 0)
 
-result=(1 0 1 0 1 11111111111)
+result=(1 0 1 0 1 1)
 
 for ind in $(seq 0 5); do
 	out=$(./problem ${a[$ind]} ${b[$ind]} ${c[$ind]} ${d[$ind]} ${e[$ind]} ${f[$ind]})
